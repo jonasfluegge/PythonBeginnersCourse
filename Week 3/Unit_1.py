@@ -1,0 +1,8 @@
+infos = ()
+name = input("Please enter the given name of the student: ")
+infos = (*infos, name)
+surname = input("Please enter the surname of the student: ")
+infos = (*infos, surname)
+field_of_study = input("Please enter the field of study of the student: ")
+infos = (*infos, field_of_study)
+print(infos)
