@@ -1,9 +1,9 @@
-def is_even(number):
+def ist_gerade(number):
     return number % 2 == 0
 
 
 for n in range(100):
-    if is_even(n):
-        print(n, "is even")
+    if ist_gerade(n):
+        print(n, "ist gerade")
     else:
-        print(n, "is not even")
+        print(n, "ist ungerade")
